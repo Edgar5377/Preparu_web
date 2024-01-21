@@ -10,7 +10,9 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/menu" element={<MenuScreen />} />
                 <Route path="/fractions" element={<FractionScreen />} />
+                <Route path="/trigonometry" element={<TrigonometryScreen />} />
                 {/* <Route path="/adminView" element={<AdminPage />} />
           <Route path="/storeForm" element={<StoreForm />} />
           <Route path="/eventForm" element={<EventForm />} />
