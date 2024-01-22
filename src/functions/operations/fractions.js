@@ -28,10 +28,12 @@ export function generateRandomFraction(
             : operation === "multiply"
             ? "*"
             : "Invalid operation";
+    const operationOptions = ["add", "subtract", "multiply"];
     return {
         values: fractionString,
         result: result_answer,
         simbol: simbol,
+        operationOptions: operationOptions,
     };
 }
 // ------------------------------------------------------------------------------------------
